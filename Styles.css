@@ -1,0 +1,58 @@
+* {
+  font-family: 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+  src: "https://fonts.googleapis.com/css?family=Poppins";
+} 
+body {
+  background-color: #fff;
+}
+
+ .content {
+    background-color: #212529;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .gap {
+    width: 10rem;
+  }
+  .state {
+    font-family: inherit;
+    font-size: small;
+    padding-left: 6em;
+    padding-top: 10em;    
+  }
+  h1 {
+    font-weight: 900;
+  }
+  .alu {
+    font-family: inherit;
+    font-weight: 900;
+    height: 25em;
+    padding: 1.5em;
+    color: #fff;
+  }
+  .button10 {
+    font-family: inherit;
+    color: #fff;
+    background-color: #C78A52;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }
+  a {
+    color: black;
+    
+  }
+
